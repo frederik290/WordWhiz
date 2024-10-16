@@ -16,8 +16,8 @@ A C# console application designed to help solve the [Wordle game](https://www.ny
 ## How It Works
 
 1. **Load Word List**: The bot starts by loading a list of valid 5-letter words from a text file.
-2. **Make a Guess**: Using the initial filtering criteria, the bot suggests possible guesses.
-3. **Receive Feedback**: After making a guess in the Wordle game, you input the feedback into the bot in the format:  
+2. **Make a Guess**: Make a guess in Wordle, for example `CRANE` is a nice start. 
+3. **Get bot Feedback**: After making a guess in the Wordle game, you input the feedback into the bot in the format:  
 `[Pattern]:[RequiredLetters]:[Excludes]:[ExcludePattern]`  
    - Pattern (`+` for unknown letters, known letters in their correct positions),
    - Required letters (letters in the word, but not yet placed),
